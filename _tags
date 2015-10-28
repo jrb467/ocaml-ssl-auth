@@ -5,6 +5,4 @@ true: package(sexplib.syntax,variantslib.syntax,ssl,lwt.syntax,lwt,lwt.unix)
 true: package(conduit,conduit.lwt,conduit.lwt-unix)
 true: package(tyxml,tyxml.parser)
 
-true: package(graphics, camlimages, camlimages.png)
-
 true: thread,debug

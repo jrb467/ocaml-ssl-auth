@@ -7,6 +7,8 @@ A project I made to test out certificate based authentication in Ocaml. Both the
 ## Requirements
 
  - Ocaml: must have the ocaml compiler ```ocamlbuild``` installed
+ - OPAM package manager for ocaml (on Ubuntu the package ```opam```)
+ - LWT, Conduit, Tyxml, and Sexp OPAM packages (possibly some more too)
  - Openssl libraries
 
 ## How to run
