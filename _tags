@@ -1,0 +1,10 @@
+# Insert dependencies (like async) into this here file
+true: syntax(camlp4o)
+# Old version -- package(sexplib.syntax,bin_prot.syntax,comparelib.syntax,fieldslib.syntax,variantslib.syntax,lwt.syntax,lwt,str)
+true: package(sexplib.syntax,variantslib.syntax,ssl,lwt.syntax,lwt,lwt.unix)
+true: package(conduit,conduit.lwt,conduit.lwt-unix)
+true: package(tyxml,tyxml.parser)
+
+true: package(graphics, camlimages, camlimages.png)
+
+true: thread,debug
